@@ -30,10 +30,10 @@ Feel free to modify the code to add new features or improve the design. Here are
 * Add animations to the timer.
 
 ## Link of the Project
-Link : 
+Link : https://github.com/sumagudipalli/Prodigy-Infotech2
 
 
 ## Screenshot of Website
-![Screenshot (7)]<img width="958" alt="output2" src="https://github.com/user-attachments/assets/6b6d758f-087b-419f-9d8b-8aecd9359912">
+![Screenshot](https://github.com/user-attachments/assets/b2c11f28-3433-4db2-a20b-684cdbe14abe)
 
 
