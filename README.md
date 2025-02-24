@@ -1,4 +1,4 @@
-# PRODIGY_WD_02
+# PRODIGY-INFOTECH 2
 # STOP WATCH WEB APPLICATION
 A simple and user-friendly stopwatch application built using HTML, CSS, and JavaScript. This application allows users to start, pause, and reset a timer with a clean and responsive interface.
 
@@ -30,7 +30,7 @@ Feel free to modify the code to add new features or improve the design. Here are
 * Add animations to the timer.
 
 ## Link of the Project
-Link : https://github.com/22FE1A6146/PRODIGY_WD_02
+Link : 
 
 
 ## Screenshot of Website
