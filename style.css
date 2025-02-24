@@ -3,49 +3,71 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #b128a6;
+    background-color: #307813;
     font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
 }
 
-.stopwatch {
-    background: #348583;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+.container {
     text-align: center;
-    width: 300px;
+    background: #444444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #display {
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
 }
 
 button {
-    background-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
-    color: white;
     cursor: pointer;
-    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+#startStopBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#lapBtn {
+    background-color: #007bff;
+    color: white;
 }
 
 button:hover {
-    background-color: #00aab3;
+    opacity: 0.8;
 }
 
 #laps {
+    list-style: none;
+    padding: 0;
     margin-top: 20px;
-    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 .lap {
-    border-bottom: 1px solid #e0e0e0;
+    background: #555;
+    padding: 5px;
     margin: 5px 0;
-    padding: 5px 0;
+    border-radius: 5px;
 }
